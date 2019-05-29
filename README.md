@@ -4,7 +4,7 @@
 
 ## 練習專案
 
-- [基礎Numpy分析：透過 Numpy 為學生成績進行基礎的平均數、最小值、最大值、方差、標準差分析](exercise/exercise1.md) 
+- 基礎Numpy分析：透過 Numpy 為學生成績進行基礎的平均數、最小值、最大值、方差、標準差分析 [連結](exercise/exercise1.md) 
 
 
 
