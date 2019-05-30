@@ -28,4 +28,4 @@
 
 ### 程式碼
 
-[連結](exercise/exercise2.py)
+[連結](/exercise2.py)
