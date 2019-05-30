@@ -24,4 +24,4 @@
 
 ### 程式碼
 
-[連結](/exercise1.py)
+[連結](exercise1.py)
