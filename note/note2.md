@@ -2,15 +2,24 @@
 
 - 數據結構 
   - Series: 一維陣列，跟numpy的陣列不同的是，可以定義自己的index(任何資料型態)
-  - DataFrame: 多個一維陣列。不同於Series只有index和values屬性，DataFrame還有columns屬性
+  - DataFrame: 多個一維陣列。不同於Series只有index和values屬性，DataFrame還`有columns屬性`
 
-### 基礎
-
-- 引入Series, DataFrame函式
+### 引入模組
 
 ```py
 import pandas as pd  # 引入 pandas 模組
 from pandas import Series, DataFrame # 引入 pandas 模組中的 Series, DataFrame 函式
+```
+
+### 檔案讀取以及寫入
+
+- read_csv()：讀取csv檔案
+- to_csv()：輸出csv檔案
+
+```py
+import pandas as pd
+train_df = pd.read_csv('./input/train.csv')
+train_df.to_csv('./output/trains.csv')
 ```
 
 
@@ -19,6 +28,7 @@ from pandas import Series, DataFrame # 引入 pandas 模組中的 Series, DataFr
 ```
 $ python3 -m pip install xlrd 
 ```
+
 
 ### 資料
 
@@ -31,10 +41,21 @@ $ python3 -m pip install xlrd
 典韋  | 80 | 90 |  90 |
 典韋  | 80 | 90 |  90 |
 
+
+
+
+
 ```py
 import pandas as pd  # 引入 pandas 模組
 from pandas import Series, DataFrame # 引入 pandas 模組中的 Series, DataFrame 函式
 score = DataFrame(pd.read_excel('exercise2.xlsx'))
+```
+
+- 保留並讀取特定的col 
+
+```py
+data = data['col1','col2']
+print(data)
 ```
 
 - 刪除多餘的行數：drop_duplicates()

@@ -16,4 +16,5 @@
 
 - [Python科學計算：用NumPy快速處理數據](note/exercise1.md)
 - [Python科學計算：Pandas](note/note2.md)
+- [數據分析的基礎知識](note/note3.md)
 
